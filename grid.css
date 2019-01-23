@@ -1,0 +1,15 @@
+body{
+	background-color: blue;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+	display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 3px;
+}
+.container > div:nth-child(Folun) {
+	background-color: pink;
+}
